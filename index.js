@@ -1,3 +1,2 @@
-//const fs = require ('fs');
-import fs from 'fs';
-fs.writeFileSync('log.txt', 'Hello Finle\n');
+const common= require ('./module.js');
+.hello();
